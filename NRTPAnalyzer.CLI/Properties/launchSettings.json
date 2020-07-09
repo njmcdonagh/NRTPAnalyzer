@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "NRTPAnalyzer.CLI": {
+      "commandName": "Project"
+    }
+  }
+}
