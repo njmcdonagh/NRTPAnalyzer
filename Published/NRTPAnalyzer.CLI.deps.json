@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NRTPAnalyzer.CLI/1.0.0": {
+        "dependencies": {
+          "CommandLineParser": "2.8.0",
+          "Costura.Fody": "4.1.0",
+          "Fody": "6.2.0",
+          "NRTPAnalyzer": "1.0.0"
+        },
+        "runtime": {
+          "NRTPAnalyzer.CLI.dll": {}
+        }
+      },
+      "CommandLineParser/2.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Costura.Fody/4.1.0": {},
+      "Fody/6.2.0": {},
+      "NRTPAnalyzer/1.0.0": {
+        "runtime": {
+          "NRTPAnalyzer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NRTPAnalyzer.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLineParser/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "path": "commandlineparser/2.8.0",
+      "hashPath": "commandlineparser.2.8.0.nupkg.sha512"
+    },
+    "Costura.Fody/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MkW5aqhqNvuP6MiaaD5Yx8efXv+5ucsumRx+Nsn5b+PA4RnaxJLtXhGkm1N+Hi7sjkSlL8kl1klSS/7v2DxZHw==",
+      "path": "costura.fody/4.1.0",
+      "hashPath": "costura.fody.4.1.0.nupkg.sha512"
+    },
+    "Fody/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hgSbLWRIscIkfV70V4P6246xfLI4onz0wd/O0kQ9ufot+VCl3ya9pYtU9IVkjRMFYxgVF20zS8wVciq59LXaGQ==",
+      "path": "fody/6.2.0",
+      "hashPath": "fody.6.2.0.nupkg.sha512"
+    },
+    "NRTPAnalyzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
